@@ -30,5 +30,5 @@ jobs:
           namespace: 'default'
           manifests: |
              azure-vote-all-in-one-redis.yaml
-          images: '${{ secrets.registry }}.azurecr.io/${{ secrets.repository }}/azure-vote-front:a7f36960ea2ae2feb635a47a9c530f26d8647257'
+          images: '${{ secrets.registry }}.azurecr.io/${{ secrets.repository }}/azure-vote-front:07f01b586f86918b13be2e7fc45b5653a055cdab'
           pull-images: false
